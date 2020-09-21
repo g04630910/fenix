@@ -77,7 +77,7 @@ class StrictEnhancedTrackingProtectionTest {
         }
     }
 
-    @Ignore("Failing on AC 58 update: https://github.com/mozilla-mobile/fenix/issues/14524")
+    // @Ignore("Failing on AC 58 update: https://github.com/mozilla-mobile/fenix/issues/14524")
     @Test
     fun testStrictVisitContentNotification() {
         val trackingProtectionTest =
@@ -91,7 +91,7 @@ class StrictEnhancedTrackingProtectionTest {
         }.closeNotificationPopup {}
     }
 
-    @Ignore("Failing on AC 58 update: https://github.com/mozilla-mobile/fenix/issues/14524")
+    // @Ignore("Failing on AC 58 update: https://github.com/mozilla-mobile/fenix/issues/14524")
     @Test
     fun testStrictVisitContentShield() {
         val trackingProtectionTest =
@@ -109,7 +109,7 @@ class StrictEnhancedTrackingProtectionTest {
         }
     }
 
-    @Ignore("Failing on AC 58 update: https://github.com/mozilla-mobile/fenix/issues/14524")
+    // @Ignore("Failing on AC 58 update: https://github.com/mozilla-mobile/fenix/issues/14524")
     @Test
     fun testStrictVisitProtectionSheet() {
         val trackingProtectionTest =
@@ -129,7 +129,7 @@ class StrictEnhancedTrackingProtectionTest {
         }
     }
 
-    @Ignore("Failing on AC 58 update: https://github.com/mozilla-mobile/fenix/issues/14524")
+    // @Ignore("Failing on AC 58 update: https://github.com/mozilla-mobile/fenix/issues/14524")
     @Test
     fun testStrictVisitDisable() {
         val trackingProtectionTest =
@@ -161,7 +161,7 @@ class StrictEnhancedTrackingProtectionTest {
         }
     }
 
-    @Ignore("Failing on AC 58 update: https://github.com/mozilla-mobile/fenix/issues/14524")
+    // @Ignore("Failing on AC 58 update: https://github.com/mozilla-mobile/fenix/issues/14524")
     @Test
     fun testStrictVisitDisableExceptionToggle() {
         val trackingProtectionTest =
@@ -194,7 +194,7 @@ class StrictEnhancedTrackingProtectionTest {
         }
     }
 
-    @Ignore("Failing on AC 58 update: https://github.com/mozilla-mobile/fenix/issues/14524")
+    //@Ignore("Failing on AC 58 update: https://github.com/mozilla-mobile/fenix/issues/14524")
     @Test
     fun testStrictVisitSheetDetails() {
         val trackingProtectionTest =
